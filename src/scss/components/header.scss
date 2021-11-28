@@ -1,0 +1,16 @@
+header.main-header {
+  position: relative;
+  min-height: $header-min-height;
+  background: $header-bg-color;
+
+  .logo {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    width: $header-logo-size;
+    height: $header-logo-size;
+    border-radius: 50%;
+    background: $header-bg-color;
+    transform: translateX(-50%);
+  }
+}

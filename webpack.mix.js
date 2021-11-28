@@ -13,7 +13,7 @@ mix.browserSync({
 mix.disableSuccessNotifications()
 
 mix.options({
-    processCssUrls: true,
+    processCssUrls: false,
     terser: {
         extractComments: false,
     },

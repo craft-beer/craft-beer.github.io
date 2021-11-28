@@ -1,4 +1,16 @@
 * {
+  box-sizing: border-box;
   margin: 0;
   padding: 0;
+}
+
+body {
+  background: $bg-color;
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  color: $text-primary;
+}
+
+img {
+  max-width: 100%;
 }
