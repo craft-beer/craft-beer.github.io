@@ -1,0 +1,23 @@
+{
+  "name": "crafting-beer-table",
+  "version": "1.0.0",
+  "author": "Weblabio <weblab.imporg@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "dev": "npm run development",
+    "development": "mix",
+    "watch": "mix watch",
+    "prod": "npm run production",
+    "production": "mix --production"
+  },
+  "dependencies": {
+    "laravel-mix": "^6.0.39"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.27.7",
+    "browser-sync-webpack-plugin": "^2.3.0",
+    "resolve-url-loader": "^4.0.0",
+    "sass": "^1.43.5",
+    "sass-loader": "^12.1.0"
+  }
+}
