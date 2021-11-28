@@ -1,0 +1,54 @@
+.beer-table {
+  display: flex;
+  flex-flow: row wrap;
+  .column {
+    flex-basis: 50%;
+  }
+  .beer-line {
+    padding: 5px;
+    .beer-card {
+      display: flex;
+      align-items: center;
+      padding: 3px 7px;
+      border-radius: 3px;
+      background: rgba(0,0,0, .4);
+      .cover {
+        margin-right: 15px;
+        width: 80px;
+      }
+      .info {
+        flex-grow: 2;
+        .heading {
+          font-size: 2rem;
+          .number {
+            color: #eaea40;
+          }
+          .name {
+            font-weight: bold;
+          }
+        }
+        .description {
+          .country {
+          }
+          .vendor {
+          }
+          .power {
+          }
+          .category {
+          }
+        }
+      }
+      .price {
+        border-left: 1px solid #22305c;
+        text-align: center;
+        font-size: 1.5rem;
+        font-weight: bold;
+        .unit{
+        }
+        .value {
+          color: #eaea40;
+        }
+      }
+    }
+  }
+}
