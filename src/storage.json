@@ -1,5 +1,70 @@
 {
   "updated_at": "",
   "items": [
+    {
+      "number": "1",
+      "name": "Glyphid Slammer",
+      "cover": "images/beer-cover-default.png",
+      "country": "BY",
+      "vendor": "JungleMan",
+      "power": "5.2%, 40 IBU",
+      "category": "IPA - Session",
+      "price": {
+        "value": "13.80p",
+        "unit": "1.00кг"
+      }
+    },
+    {
+      "number": "2",
+      "name": "Backbreaker Stout",
+      "cover": "images/beer-cover-default.png",
+      "country": "BY",
+      "vendor": "JungleMan",
+      "power": "4.8%, 20 IBU",
+      "category": "IPA - Session",
+      "price": {
+        "value": "15.00р",
+        "unit": "1.00кг"
+      }
+    },
+    {
+      "number": "3",
+      "name": "Red Rock Blaster",
+      "cover": "images/beer-cover-default.png",
+      "country": "BY",
+      "vendor": "JungleMan",
+      "power": "4.8%, 20 IBU",
+      "category": "IPA - Session",
+      "price": {
+        "value": "15.00р",
+        "unit": "1.00кг"
+      }
+    },
+    {
+      "number": "4",
+      "name": "Slayer Stout",
+      "cover": "images/beer-cover-default.png",
+      "country": "BY",
+      "vendor": "JungleMan",
+      "power": "4.8%, 20 IBU",
+      "category": "IPA - Session",
+      "price": {
+        "value": "15.00р",
+        "unit": "1.00кг"
+      }
+    },
+    {
+      "number": "5",
+      "name": "Skull Crusher Ale",
+      "cover": "images/beer-cover-default.png",
+      "country": "BY",
+      "vendor": "JungleMan",
+      "power": "4.8%, 20 IBU",
+      "category": "IPA - Session",
+      "price": {
+        "value": "15.00р",
+        "unit": "1.00кг"
+      }
+    }
   ]
 }
