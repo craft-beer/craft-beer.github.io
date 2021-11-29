@@ -25,10 +25,10 @@ mix.js('src/js/app.js', buildDir + '/js')
     .sass('src/scss/app.scss', buildDir + '/css')
     .copyDirectory('src/images', buildDir + '/images')
     .copy('src/index.html', buildDir)
-    .copy('src/storage.json', buildDir)
 
 if (mix.inProduction()) {
     mix.version()
 } else {
+    mix.copy('src/storage.json', buildDir)
     mix.sourceMaps()
 }

@@ -1,0 +1,18 @@
+{
+  "updated_at": "",
+  "items": [
+    {
+      "number": "01",
+      "name": "",
+      "cover": "images/beer-cover-default.png",
+      "country": "BY",
+      "vendor": "",
+      "power": "",
+      "category": "",
+      "price": {
+        "value": "",
+        "unit": ""
+      }
+    }
+  ]
+}
