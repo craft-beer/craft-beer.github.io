@@ -17,7 +17,8 @@
         width: 80px;
       }
       .info {
-        flex-grow: 2;
+        flex-grow: 3;
+        border-right: 1px solid #0b0e1c;
         .heading {
           font-size: 2rem;
           .number {
@@ -39,6 +40,7 @@
         }
       }
       .price {
+        flex-grow: 2;
         border-left: 1px solid #22305c;
         text-align: center;
         font-size: 1.5rem;
@@ -46,6 +48,7 @@
         .unit{
         }
         .value {
+          font-size: 1.7rem;
           color: #eaea40;
         }
       }
