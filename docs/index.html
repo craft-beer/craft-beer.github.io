@@ -10,111 +10,69 @@
     <link rel="stylesheet" href="css/app.css">
 </head>
 <body>
-<div id="preloader" class="preloader">
-    <div class="lds-ellipsis"><div></div><div></div><div></div><div></div></div>
-</div>
 <header class="main-header">
     <div class="logo">
         <img src="images/logo.png" alt="">
     </div>
 </header>
-<main id="app">
-    <div class="beer-table">
+<main id="app" x-data="App">
+    <div id="preloader" class="preloader" x-show="loading">
+        <div class="lds-ellipsis"><div></div><div></div><div></div><div></div></div>
+    </div>
+    <div class="beer-table" x-cloak x-show="!loading">
         <div class="column">
-            <div class="beer-line">
-                <div class="beer-card">
-                    <div class="cover">
-                        <img src="images/beer-cover-default.png" alt="">
-                    </div>
-                    <div class="info">
-                        <div class="heading">
-                            <span class="number">01.</span>
-                            <span class="name">Glyphid Slammer</span>
+            <template x-for="beer in columns.left">
+                <div class="beer-line">
+                    <div class="beer-card">
+                        <div class="cover">
+                            <img :src="beer.cover" alt="">
                         </div>
-                        <div class="description">
-                            <span class="country">BY</span>
-                            <span class="vendor">JungleMan</span>
-                            <span class="power">5.2%, 40 IBU</span>
-                            <span class="category">IPA - Session</span>
+                        <div class="info">
+                            <div class="heading">
+                                <span class="number" x-text="formatNumber(beer.number)"></span>
+                                <span class="name" x-text="beer.name"></span>
+                            </div>
+                            <div class="description">
+                                <span class="country" x-text="beer.country"></span>
+                                <span class="vendor" x-text="beer.vendor"></span>
+                                <span class="power" x-text="beer.power"></span>
+                                <span class="category" x-text="beer.category"></span>
+                            </div>
                         </div>
-                    </div>
-                    <div class="price">
-                        <div class="unit">1.00кг</div>
-                        <div class="value">13.80p</div>
+                        <div class="price">
+                            <div class="unit" x-text="beer.price.unit"></div>
+                            <div class="value" x-text="beer.price.value"></div>
+                        </div>
                     </div>
                 </div>
-            </div>
-            <div class="beer-line">
-                <div class="beer-card">
-                    <div class="cover">
-                        <img src="images/beer-cover-default.png" alt="">
-                    </div>
-                    <div class="info">
-                        <div class="heading">
-                            <span class="number">02.</span>
-                            <span class="name">Glyphid Slammer</span>
-                        </div>
-                        <div class="description">
-                            <span class="country">BY</span>
-                            <span class="vendor">JungleMan</span>
-                            <span class="power">5.2%, 40 IBU</span>
-                            <span class="category">IPA - Session</span>
-                        </div>
-                    </div>
-                    <div class="price">
-                        <div class="unit">1.00кг</div>
-                        <div class="value">13.80p</div>
-                    </div>
-                </div>
-            </div>
+            </template>
         </div>
         <div class="column">
-            <div class="beer-line">
-                <div class="beer-card">
-                    <div class="cover">
-                        <img src="images/beer-cover-default.png" alt="">
-                    </div>
-                    <div class="info">
-                        <div class="heading">
-                            <span class="number">03.</span>
-                            <span class="name">Glyphid Slammer</span>
+            <template x-for="beer in columns.right">
+                <div class="beer-line">
+                    <div class="beer-card">
+                        <div class="cover">
+                            <img :src="beer.cover" alt="">
                         </div>
-                        <div class="description">
-                            <span class="country">BY</span>
-                            <span class="vendor">JungleMan</span>
-                            <span class="power">5.2%, 40 IBU</span>
-                            <span class="category">IPA - Session</span>
+                        <div class="info">
+                            <div class="heading">
+                                <span class="number" x-text="formatNumber(beer.number)"></span>
+                                <span class="name" x-text="beer.name"></span>
+                            </div>
+                            <div class="description">
+                                <span class="country" x-text="beer.country"></span>
+                                <span class="vendor" x-text="beer.vendor"></span>
+                                <span class="power" x-text="beer.power"></span>
+                                <span class="category" x-text="beer.category"></span>
+                            </div>
                         </div>
-                    </div>
-                    <div class="price">
-                        <div class="unit">1.00кг</div>
-                        <div class="value">13.80p</div>
+                        <div class="price">
+                            <div class="unit" x-text="beer.price.unit"></div>
+                            <div class="value" x-text="beer.price.value"></div>
+                        </div>
                     </div>
                 </div>
-            </div>
-            <div class="beer-line">
-                <div class="beer-card">
-                    <div class="cover">
-                        <img src="images/beer-cover-default.png" alt="">
-                    </div>
-                    <div class="info">
-                        <div class="heading">
-                            <span class="number">04.</span>
-                            <span class="name">Glyphid Slammer</span>
-                        </div>
-                        <div class="description">
-                            <span class="country">BY</span>
-                            <span class="vendor">JungleMan</span>
-                            <span class="power">5.2%, 40 IBU</span>
-                            <span class="category">IPA - Session</span>
-                        </div>
-                    </div>
-                    <div class="price">
-                        <div class="unit">1.00кг</div>
-                        <div class="value">13.80p</div>
-                    </div>
-                </div>
-            </div>
+            </template>
         </div>
     </div>
 </main>
