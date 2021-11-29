@@ -18,7 +18,7 @@ export default () => ({
     },
 
     loadStorage() {
-        return fetch(this.storageUrl + '?t=' + (Date.now() % 1000) / 1000)
+        return fetch(this.storageUrl + '?' + Date.now())
             .then(res => res.json())
             .then(json => json)
             .catch(err => console.error(err))
