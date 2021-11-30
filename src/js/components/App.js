@@ -20,8 +20,26 @@ export default () => ({
     loadStorage() {
         return fetch(this.storageUrl + '?' + Date.now())
             .then(res => res.json())
-            .then(json => json)
+            .then(json => this.processingStorage(json))
             .catch(err => console.error(err))
+    },
+
+    processingStorage(json) {
+        const result = Object.assign({}, json)
+
+        result.items = []
+
+        if (json.items.length) {
+            json.items.forEach((beer) => {
+                if (!beer.cover) {
+                    beer.cover = 'images/beer-cover-default.png'
+                }
+
+                result.items.push(beer)
+            })
+        }
+
+        return result
     },
 
     splitItemsByColumn() {
