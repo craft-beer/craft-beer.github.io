@@ -11,7 +11,7 @@
       flex-wrap: nowrap;
       padding: 3px 7px;
       border-radius: 5px;
-      background: rgba(0,0,0, .4);
+      background: $card-bg-color;
       .cover {
         margin-right: 15px;
         width: 80px;
@@ -21,7 +21,7 @@
         flex-direction: column;
         justify-content: center;
         flex-grow: 3;
-        border-right: 1px solid #0b0e1c;
+        border-right: 1px solid darken($card-bg-color, 10);
         .heading {
           font-size: 2rem;
           .number {
@@ -67,7 +67,7 @@
         flex-basis: 25%;
         min-width: 25%;
         max-width: 25%;
-        border-left: 1px solid #22305c;
+        border-left: 1px solid lighten($card-bg-color, 10);
         text-align: center;
         font-size: 1.5rem;
         font-weight: $font-w-bold;
