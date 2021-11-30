@@ -10,7 +10,7 @@
       display: flex;
       align-items: center;
       padding: 3px 7px;
-      border-radius: 3px;
+      border-radius: 5px;
       background: rgba(0,0,0, .4);
       .cover {
         margin-right: 15px;
@@ -29,6 +29,22 @@
           }
         }
         .description {
+          > span + span {
+            position: relative;
+            padding-left: 10px;
+            &:before {
+              content: '';
+              display: block;
+              position: absolute;
+              top: 50%;
+              left: 0;
+              width: 4px;
+              height: 4px;
+              border-radius: 50%;
+              background: rgb(#fff, .5);
+              transform: translateY(-1px);
+            }
+          }
           .country {
           }
           .vendor {
@@ -41,6 +57,9 @@
       }
       .price {
         flex-grow: 2;
+        flex-basis: 25%;
+        min-width: 25%;
+        max-width: 25%;
         border-left: 1px solid #22305c;
         text-align: center;
         font-size: 1.5rem;
