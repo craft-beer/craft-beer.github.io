@@ -4,11 +4,11 @@
     {
       "number": "1",
       "name": "Glyphid Slammer",
-      "cover": "images/beer-cover-default.png",
+      "cover": null,
       "country": "BY",
       "vendor": "JungleMan",
       "power": "5.2%, 40 IBU",
-      "category": "IPA - Session",
+      "category": "IPA - New England",
       "price": {
         "value": "13.80p",
         "unit": "1.00кг"
@@ -17,7 +17,7 @@
     {
       "number": "2",
       "name": "Backbreaker Stout",
-      "cover": "images/beer-cover-default.png",
+      "cover": null,
       "country": "BY",
       "vendor": "JungleMan",
       "power": "4.8%, 20 IBU",
@@ -30,39 +30,234 @@
     {
       "number": "3",
       "name": "Red Rock Blaster",
-      "cover": "images/beer-cover-default.png",
+      "cover": null,
       "country": "BY",
       "vendor": "JungleMan",
       "power": "4.8%, 20 IBU",
       "category": "IPA - Session",
       "price": {
-        "value": "15.00р",
+        "value": "11.60р",
         "unit": "1.00кг"
       }
     },
     {
       "number": "4",
       "name": "Slayer Stout",
-      "cover": "images/beer-cover-default.png",
-      "country": "BY",
-      "vendor": "JungleMan",
-      "power": "4.8%, 20 IBU",
-      "category": "IPA - Session",
+      "cover": null,
+      "country": "US",
+      "vendor": "Barley Bulb",
+      "power": "4.9%, 20 IBU",
+      "category": "IPA - Imperial / Double / LongString",
       "price": {
-        "value": "15.00р",
+        "value": "14.00р",
         "unit": "1.00кг"
       }
     },
     {
       "number": "5",
       "name": "Skull Crusher Ale",
-      "cover": "images/beer-cover-default.png",
-      "country": "BY",
-      "vendor": "JungleMan",
+      "cover": null,
+      "country": "US",
+      "vendor": "Barley Bulb",
+      "power": "5%, 20 IBU",
+      "category": "Sour - Other Gose",
+      "price": {
+        "value": "21.00р",
+        "unit": "1.00кг"
+      }
+    },
+    {
+      "number": "6",
+      "name": "Oily Oaf Brew",
+      "cover": null,
+      "country": "US",
+      "vendor": "Barley Bulb",
+      "power": "6.9%, 20 IBU",
+      "category": "Porter - Imperial Down",
+      "price": {
+        "value": "12.30р",
+        "unit": "1.00кг"
+      }
+    },
+    {
+      "number": "7",
+      "name": "Leaf Lover's Special",
+      "cover": null,
+      "country": "UK",
+      "vendor": "Malt Star",
+      "power": "6.8%, 20 IBU",
+      "category": "Sour - Fruited Gose",
+      "price": {
+        "value": "14.75р",
+        "unit": "1.00кг"
+      }
+    },
+    {
+      "number": "8",
+      "name": "Dark Morkite",
+      "cover": null,
+      "country": "UK",
+      "vendor": "Malt Star",
+      "power": "5.2%, 20 IBU",
+      "category": "IPA - Imperial / Double",
+      "price": {
+        "value": "17.00р",
+        "unit": "1.00кг"
+      }
+    },
+    {
+      "number": "9",
+      "name": "Pots O' Gold",
+      "cover": null,
+      "country": "UK",
+      "vendor": "Malt Star",
+      "power": "5.8%, 20 IBU",
+      "category": "IPA - American",
+      "price": {
+        "value": "13.00р",
+        "unit": "1.00кг"
+      }
+    },
+    {
+      "number": "10",
+      "name": "Rocky Mountain",
+      "cover": null,
+      "country": "UK",
+      "vendor": "Malt Star",
+      "power": "6.3%, 20 IBU",
+      "category": "IPA",
+      "price": {
+        "value": "11.20р",
+        "unit": "1.00кг"
+      }
+    },
+    {
+      "number": "11",
+      "name": "Slayer Stout",
+      "cover": null,
+      "country": "UK",
+      "vendor": "Malt Star",
       "power": "4.8%, 20 IBU",
-      "category": "IPA - Session",
+      "category": "Stout - Milk / Sweet",
+      "price": {
+        "value": "18.35р",
+        "unit": "1.00кг"
+      }
+    },
+    {
+      "number": "12",
+      "name": "Tunnel Rat",
+      "cover": null,
+      "country": "RU",
+      "vendor": "StarchNut",
+      "power": "5.5%, 20 IBU",
+      "category": "Belgian - Quadrupel",
       "price": {
         "value": "15.00р",
+        "unit": "1.00кг"
+      }
+    },
+    {
+      "number": "13",
+      "name": "Arkenstout",
+      "cover": null,
+      "country": "RU",
+      "vendor": "StarchNut",
+      "power": "5%, 20 IBU",
+      "category": "IPA - MilkSnake",
+      "price": {
+        "value": "12.80р",
+        "unit": "1.00кг"
+      }
+    },
+    {
+      "number": "14",
+      "name": "Blacklock Lager",
+      "cover": null,
+      "country": "RU",
+      "vendor": "StarchNut",
+      "power": "4%, 20 IBU",
+      "category": "Sour - Fruited",
+      "price": {
+        "value": "7.50р",
+        "unit": "1.00кг"
+      }
+    },
+    {
+      "number": "15",
+      "name": "Blackout Stout",
+      "cover": null,
+      "country": "RU",
+      "vendor": "StarchNut",
+      "power": "6.8%, 20 IBU",
+      "category": "Sour - Other Gose",
+      "price": {
+        "value": "9.99р",
+        "unit": "1.00кг"
+      }
+    },
+    {
+      "number": "16",
+      "name": "Blackreach Blonde",
+      "cover": null,
+      "country": "CZ",
+      "vendor": "YeastCone",
+      "power": "11%, 20 IBU",
+      "category": "Pole Ale - American",
+      "price": {
+        "value": "24.00р",
+        "unit": "1.00кг"
+      }
+    },
+    {
+      "number": "17",
+      "name": "Burning Love",
+      "cover": null,
+      "country": "CZ",
+      "vendor": "YeastCone",
+      "power": "4.7%, 20 IBU",
+      "category": "Wheat Beer",
+      "price": {
+        "value": "19.00р",
+        "unit": "1.00кг"
+      }
+    },
+    {
+      "number": "18",
+      "name": "Flintlocke's Delight",
+      "cover": null,
+      "country": "CZ",
+      "vendor": "YeastCone",
+      "power": "5.7%, 20 IBU",
+      "category": "IPA - New England / Hazy",
+      "price": {
+        "value": "17.50р",
+        "unit": "1.00кг"
+      }
+    },
+    {
+      "number": "19",
+      "name": "Gut Wrecker",
+      "cover": null,
+      "country": "DE",
+      "vendor": "CreditsRank",
+      "power": "6.4%, 20 IBU",
+      "category": "Pilsner - German",
+      "price": {
+        "value": "12.30р",
+        "unit": "1.00кг"
+      }
+    },
+    {
+      "number": "20",
+      "name": "Mactera Brew",
+      "cover": null,
+      "country": "DE",
+      "vendor": "CreditsRank",
+      "power": "8.2%, 20 IBU",
+      "category": "Lager",
+      "price": {
+        "value": "10.10р",
         "unit": "1.00кг"
       }
     }
