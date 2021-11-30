@@ -8,7 +8,7 @@
     padding: 5px;
     .beer-card {
       display: flex;
-      align-items: center;
+      flex-wrap: nowrap;
       padding: 3px 7px;
       border-radius: 5px;
       background: rgba(0,0,0, .4);
@@ -17,6 +17,9 @@
         width: 80px;
       }
       .info {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
         flex-grow: 3;
         border-right: 1px solid #0b0e1c;
         .heading {
@@ -25,24 +28,25 @@
             color: #eaea40;
           }
           .name {
-            font-weight: bold;
+            font-weight: $font-w-bold;
+            letter-spacing: 0.02em;
           }
         }
         .description {
           > span + span {
             position: relative;
+            margin-left: 1px;
             padding-left: 10px;
-            &:before {
+            &:before { // Separator
               content: '';
               display: block;
               position: absolute;
-              top: 50%;
+              top: 8px;
               left: 0;
               width: 4px;
               height: 4px;
               border-radius: 50%;
-              background: rgb(#fff, .5);
-              transform: translateY(-1px);
+              background: rgb(#fff, .7);
             }
           }
           .country {
@@ -56,6 +60,9 @@
         }
       }
       .price {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
         flex-grow: 2;
         flex-basis: 25%;
         min-width: 25%;
@@ -63,7 +70,7 @@
         border-left: 1px solid #22305c;
         text-align: center;
         font-size: 1.5rem;
-        font-weight: bold;
+        font-weight: $font-w-bold;
         .unit{
         }
         .value {
