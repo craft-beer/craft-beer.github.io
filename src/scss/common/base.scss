@@ -6,7 +6,8 @@
 
 body {
   background: $bg-color;
-  font-family: Arial, sans-serif;
+  font-family: $font-primary;
+  font-weight: $font-w-regular;
   font-size: 16px;
   color: $text-primary;
 }
