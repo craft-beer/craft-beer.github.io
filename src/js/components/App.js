@@ -3,6 +3,7 @@ export default () => ({
     storage: {},
     loading: true,
     loadingDelay: 1000,
+    limitItems: 20,
     columns: {
         left: [],
         right: [],
@@ -30,7 +31,7 @@ export default () => ({
         result.items = []
 
         if (json.items.length) {
-            json.items.forEach((beer) => {
+            json.items.slice(0, this.limitItems).forEach((beer) => {
                 if (!beer.cover) {
                     beer.cover = 'images/beer-cover-default.png'
                 }
