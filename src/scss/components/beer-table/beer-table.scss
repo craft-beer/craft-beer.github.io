@@ -33,6 +33,7 @@
           }
         }
         .description {
+          font-size: 1.2rem;
           > span + span {
             position: relative;
             margin-left: 1px;
@@ -41,7 +42,7 @@
               content: '';
               display: block;
               position: absolute;
-              top: 8px;
+              top: 50%;
               left: 0;
               width: 4px;
               height: 4px;
@@ -52,7 +53,7 @@
           .country {
             text-transform: uppercase;
             .flag-icon {
-              width: 1.2em;
+              width: .9em;
             }
           }
           .vendor {
