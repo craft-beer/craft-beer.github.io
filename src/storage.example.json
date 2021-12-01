@@ -1,11 +1,12 @@
 {
+  "version": "0.1.0",
   "updated_at": "",
   "items": [
     {
-      "number": "01",
+      "number": "",
       "name": "",
-      "cover": "images/beer-cover-default.png",
-      "country": "BY",
+      "cover": null,
+      "country": "",
       "vendor": "",
       "power": "",
       "category": "",
