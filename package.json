@@ -11,7 +11,8 @@
     "production": "mix --production"
   },
   "dependencies": {
-    "alpinejs": "^3.5.2"
+    "alpinejs": "^3.5.2",
+    "flag-icon-css": "^4.1.6"
   },
   "devDependencies": {
     "browser-sync": "^2.27.7",
