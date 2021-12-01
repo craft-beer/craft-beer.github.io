@@ -16,4 +16,7 @@ yarn run prod
 
 Connect GitHub Pages to */docs*
 
-**Important:** changes to storage.json on production must be done manually, the builder does not replace the file
+### Notices: 
+- changes to docs/storage.json on production must be done manually
+- the template is not responsive, only for Full HD on fullscreen
+- not designed to run from a subfolder
