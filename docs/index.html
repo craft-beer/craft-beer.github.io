@@ -18,11 +18,14 @@
         <span class="date" x-text="date"></span>
         <span class="time" x-text="time"></span>
     </div>
+    <div class="weather" x-data="Weather">
+        За окном: <span x-text="value"></span>
+    </div>
     <div class="logo">
         <img src="/images/logo.png" alt="">
     </div>
 </header>
-<main id="app" x-data="App">
+<main id="app" x-data="BeerTable">
     <div id="preloader" class="preloader" x-show="loading">
         <div class="lds-ellipsis"><div></div><div></div><div></div><div></div></div>
     </div>
