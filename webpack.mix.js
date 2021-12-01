@@ -6,7 +6,7 @@ mix.browserSync({
     proxy: false,
     open: false,
     notify: false,
-    files: ['src/**/*'],
+    files: ['src/**/*', 'build/css/*'],
     server: './build',
 })
 
