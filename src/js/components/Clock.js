@@ -18,8 +18,16 @@ export default () => ({
     },
 
     updateDateTime() {
-        this.date  = this.getCurrentDate()
-        this.time  = this.getCurrentTime()
+        const date = this.getCurrentDate()
+        const time = this.getCurrentTime()
+
+        if (date !== this.date) {
+            this.date = date
+        }
+
+        if (time !== this.time) {
+            this.time = time
+        }
     },
 
     getCurrentDate() {
