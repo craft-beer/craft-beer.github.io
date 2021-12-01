@@ -1,11 +1,11 @@
 import Alpine from 'alpinejs'
-import App from './components/App'
+import BeerTable from './components/BeerTable'
 import Clock from './components/Clock'
 import Weather from './components/Weather'
 
 window.Alpine = Alpine
 
-Alpine.data('App', App)
+Alpine.data('BeerTable', BeerTable)
 Alpine.data('Clock', Clock)
 Alpine.data('Weather', Weather)
 
