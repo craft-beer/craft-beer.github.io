@@ -1,5 +1,10 @@
 header.main-header {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  align-items: center;
   position: relative;
+  padding: 4px 15px;
   min-height: $header-min-height;
   background: $header-bg-color;
 
