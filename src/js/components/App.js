@@ -1,15 +1,20 @@
+import { getCssClassNames } from '../utils'
+
 export default () => ({
     storageUrl: 'storage.json',
     storage: {},
     loading: true,
     loadingDelay: 1000,
     limitItems: 20,
+    availableCountryFlags: [],
     columns: {
         left: [],
         right: [],
     },
 
     async init() {
+        await this.loadAvailableCountryFlags()
+
         this.storage = await this.loadStorage()
 
         setTimeout(() => {
@@ -25,6 +30,20 @@ export default () => ({
             .catch(err => console.error(err))
     },
 
+    loadAvailableCountryFlags() {
+        const classes = getCssClassNames('flag-icon-', '/css/app.css', false)
+
+        if (classes.length) {
+            classes.forEach((name) => {
+                const code = name.split('-')[2]
+
+                if (code && code.length === 2) {
+                    this.availableCountryFlags.push(code)
+                }
+            })
+        }
+    },
+
     processingStorage(json) {
         const result = Object.assign({}, json)
 
@@ -33,7 +52,16 @@ export default () => ({
         if (json.items.length) {
             json.items.slice(0, this.limitItems).forEach((beer) => {
                 if (!beer.cover) {
-                    beer.cover = 'images/beer-cover-default.png'
+                    beer.cover = '/images/beer-cover-default.png'
+                }
+
+                if (beer.country) {
+                    const code = beer.country.toLowerCase()
+
+                    beer.country = {
+                        code,
+                        isFlag: this.existsCountryFlag(code)
+                    }
                 }
 
                 result.items.push(beer)
@@ -57,5 +85,9 @@ export default () => ({
 
     formatNumber(value) {
         return ('0' + value).slice(-2) + '.'
-    }
+    },
+
+    existsCountryFlag(code) {
+        return this.availableCountryFlags.includes(code)
+    },
 })

@@ -50,6 +50,10 @@
             }
           }
           .country {
+            text-transform: uppercase;
+            .flag-icon {
+              width: 1.2em;
+            }
           }
           .vendor {
           }
