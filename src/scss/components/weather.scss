@@ -1,3 +1,22 @@
 .weather {
-  //
+  display: flex;
+  align-items: center;
+  > div + div {
+    margin-left: 10px;
+  }
+  .icon {
+    margin-right: 10px;
+    line-height: 1;
+    font-size: 2rem;
+  }
+  .temp {
+    font-size: 1.9rem;
+  }
+  .description {
+    max-width: 100px;
+    font-size: .8rem;
+  }
+  .wind {
+    text-align: right;
+  }
 }

@@ -4,8 +4,9 @@ header.main-header {
   justify-content: space-between;
   align-items: center;
   position: relative;
-  padding: 4px 35px;
-  min-height: $header-min-height;
+  padding: 2px 35px;
+  min-height: $header-height;
+  max-height: $header-height;
   background: $header-bg-color;
 
   .logo {
