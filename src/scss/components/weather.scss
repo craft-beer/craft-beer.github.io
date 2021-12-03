@@ -11,12 +11,35 @@
   }
   .temp {
     font-size: 1.9rem;
+    .value {
+    }
   }
   .description {
     max-width: 100px;
     font-size: .8rem;
+    .value {
+    }
+  }
+  .wind,
+  .pressure {
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+    font-size: .9rem;
+    .icon {
+      margin-right: 5px;
+      line-height: .9rem;
+      font-size: .75rem;
+    }
+    .value {
+    }
+    .unit {
+      margin-bottom: 1px;
+      margin-left: 1px;
+      font-size: .8rem;
+    }
   }
   .wind {
-    text-align: right;
+    margin-bottom: 2px;
   }
 }

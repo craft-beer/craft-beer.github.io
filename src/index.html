@@ -29,12 +29,23 @@
             <i class="fas" :class="current.icon"></i>
         </div>
         <div class="temp">
-            <span x-text="current.temp"></span>
+            <span class="value" x-text="current.temp"></span>
+        </div>
+        <div class="description">
+            <div class="value" x-text="current.description"></div>
         </div>
         <div>
-            <div class="description" x-text="current.description"></div>
+            <div class="wind">
+                <i class="fas fa-wind icon"></i>
+                <span class="value" x-text="current.wind"></span>
+                <span class="unit">м<small>/</small>с</span>
+            </div>
+            <div class="pressure">
+                <i class="fas fa-tachometer-alt icon"></i>
+                <span class="value" x-text="current.pressure"></span>
+                <span class="unit">мм</span>
+            </div>
         </div>
-        <div class="wind" x-text="current.wind"></div>
     </div>
     <div class="logo">
         <img src="/images/logo.png" alt="">

@@ -3,7 +3,14 @@ const API_KEY = '6dea0c6c60069933f5a669302f7784b5'
 
 export default () => ({
     cityId: 620127,
-    refreshInterval: 10 * 60 * 1000, // api limit: 60 call per minute,
+    refreshIntervalMinutes: 5, // api limit: 60 call per minute,
+    current: {
+        description: '',
+        icon: '',
+        temp: '',
+        wind: '',
+        pressure: '',
+    },
     iconClasses: {
         '01d': 'fa-sun',
         '01n': 'fa-moon',
@@ -24,23 +31,17 @@ export default () => ({
         '50d': 'fa-smog',
         '50n': 'fa-smog',
     },
-    current: {
-        description: '',
-        icon: '',
-        temp: '',
-        wind: '',
-    },
 
     init() {
-        if (this.refreshInterval < 1000) {
-            this.refreshInterval = 1000
+        if (this.refreshIntervalMinutes < 1) {
+            this.refreshIntervalMinutes = 1
         }
 
         this.refreshData()
 
         setInterval(() => {
             this.refreshData()
-        }, this.refreshInterval)
+        }, this.refreshIntervalMinutes * 60 * 1000)
     },
 
     async refreshData() {
@@ -50,6 +51,7 @@ export default () => ({
         this.current.icon = this.getIconClass(response.weather[0].icon)
         this.current.temp = this.formatTemp(response.main.temp)
         this.current.wind = this.formatWind(response.wind.speed)
+        this.current.pressure = this.formatPressure(response.main.pressure)
     },
 
     requestData() {
@@ -64,14 +66,18 @@ export default () => ({
     formatTemp(value) {
         value = Math.round(value)
 
-        return value > 0 ? '+' + value : value
+        return (value > 0 ? '+' + value : value) + '°'
     },
 
     formatWind(value) {
-        return Math.round(value) + 'м/с'
+        return Math.round(value)
+    },
+
+    formatPressure(value) {
+        return Math.round( value / 1.333)
     },
 
     getIconClass(icon) {
-        return this.iconClasses[icon]
-    }
+        return this.iconClasses[icon] || false
+    },
 })
