@@ -11,6 +11,12 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@400;500&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+          integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+          rel="stylesheet"
+          crossorigin="anonymous"
+          referrerpolicy="no-referrer"
+    />
 </head>
 <body>
 <header class="main-header">
@@ -18,8 +24,17 @@
         <span class="date" x-text="date"></span>
         <span class="time" x-text="time"></span>
     </div>
-    <div class="weather" x-data="Weather">
-        За окном: <span x-text="value"></span>
+    <div class="weather" x-data="Weather" x-cloak>
+        <div class="icon" x-show="current.icon">
+            <i class="fas" :class="current.icon"></i>
+        </div>
+        <div class="temp">
+            <span x-text="current.temp"></span>
+        </div>
+        <div>
+            <div class="description" x-text="current.description"></div>
+        </div>
+        <div class="wind" x-text="current.wind"></div>
     </div>
     <div class="logo">
         <img src="/images/logo.png" alt="">
