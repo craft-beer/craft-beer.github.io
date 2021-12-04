@@ -18,5 +18,13 @@ header.main-header {
     border-radius: 50%;
     background: $header-bg-color;
     transform: translateX(-50%);
+
+    .happy-new-year {
+      position: absolute;
+      top: -15px;
+      left: 17px;
+      max-width: none;
+      filter: saturate(.7);
+    }
   }
 }
