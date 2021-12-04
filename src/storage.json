@@ -14,6 +14,9 @@
       "price": {
         "value": "13.80p",
         "unit": "1.00кг"
+      },
+      "colors": {
+        "category": null
       }
     },
     {
@@ -28,6 +31,9 @@
       "price": {
         "value": "15.00р",
         "unit": "1.00кг"
+      },
+      "colors": {
+        "category": null
       }
     },
     {
@@ -42,6 +48,9 @@
       "price": {
         "value": "11.60р",
         "unit": "1.00кг"
+      },
+      "colors": {
+        "category": null
       }
     },
     {
@@ -56,6 +65,9 @@
       "price": {
         "value": "14.00р",
         "unit": "1.00кг"
+      },
+      "colors": {
+        "category": null
       }
     },
     {
@@ -70,6 +82,9 @@
       "price": {
         "value": "21.00р",
         "unit": "1.00кг"
+      },
+      "colors": {
+        "category": null
       }
     },
     {
@@ -84,6 +99,9 @@
       "price": {
         "value": "12.30р",
         "unit": "1.00кг"
+      },
+      "colors": {
+        "category": null
       }
     },
     {
@@ -98,6 +116,9 @@
       "price": {
         "value": "14.75р",
         "unit": "1.00кг"
+      },
+      "colors": {
+        "category": null
       }
     },
     {
@@ -112,6 +133,9 @@
       "price": {
         "value": "17.00р",
         "unit": "1.00кг"
+      },
+      "colors": {
+        "category": null
       }
     },
     {
@@ -126,6 +150,9 @@
       "price": {
         "value": "13.00р",
         "unit": "1.00кг"
+      },
+      "colors": {
+        "category": null
       }
     },
     {
@@ -140,6 +167,9 @@
       "price": {
         "value": "11.20р",
         "unit": "1.00кг"
+      },
+      "colors": {
+        "category": null
       }
     },
     {
@@ -154,6 +184,9 @@
       "price": {
         "value": "18.35р",
         "unit": "1.00кг"
+      },
+      "colors": {
+        "category": null
       }
     },
     {
@@ -168,6 +201,9 @@
       "price": {
         "value": "15.00р",
         "unit": "1.00кг"
+      },
+      "colors": {
+        "category": null
       }
     },
     {
@@ -182,6 +218,9 @@
       "price": {
         "value": "12.80р",
         "unit": "1.00кг"
+      },
+      "colors": {
+        "category": null
       }
     },
     {
@@ -196,6 +235,9 @@
       "price": {
         "value": "7.50р",
         "unit": "1.00кг"
+      },
+      "colors": {
+        "category": null
       }
     },
     {
@@ -210,6 +252,9 @@
       "price": {
         "value": "9.99р",
         "unit": "1.00кг"
+      },
+      "colors": {
+        "category": null
       }
     },
     {
@@ -224,6 +269,9 @@
       "price": {
         "value": "24.00р",
         "unit": "1.00кг"
+      },
+      "colors": {
+        "category": null
       }
     },
     {
@@ -238,6 +286,9 @@
       "price": {
         "value": "19.00р",
         "unit": "1.00кг"
+      },
+      "colors": {
+        "category": null
       }
     },
     {
@@ -252,6 +303,9 @@
       "price": {
         "value": "17.50р",
         "unit": "1.00кг"
+      },
+      "colors": {
+        "category": null
       }
     },
     {
@@ -266,6 +320,9 @@
       "price": {
         "value": "12.30р",
         "unit": "1.00кг"
+      },
+      "colors": {
+        "category": null
       }
     },
     {
@@ -280,6 +337,9 @@
       "price": {
         "value": "10.10р",
         "unit": "1.00кг"
+      },
+      "colors": {
+        "category": null
       }
     }
   ]

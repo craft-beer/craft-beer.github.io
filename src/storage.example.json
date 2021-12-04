@@ -14,6 +14,9 @@
       "price": {
         "value": "",
         "unit": ""
+      },
+      "colors": {
+        "category": null
       }
     }
   ]
