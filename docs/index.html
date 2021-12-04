@@ -47,9 +47,11 @@
             </div>
         </div>
     </div>
-    <div class="logo">
+    <div class="logo" x-data="Logo">
         <img src="/images/logo.png" alt="">
-        <img src="/images/ny-logo.png" alt="" class="happy-new-year">
+        <template x-if="holidays.newYear">
+            <img src="/images/ny-logo.png" alt="" class="happy-new-year">
+        </template>
     </div>
 </header>
 <main id="app" x-data="BeerTable">
