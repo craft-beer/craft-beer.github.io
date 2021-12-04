@@ -66,7 +66,7 @@ export default () => ({
     formatTemp(value) {
         value = Math.round(value)
 
-        return (value > 0 ? '+' + value : value) + '°'
+        return value > 0 ? '+' + value : value
     },
 
     formatWind(value) {
