@@ -8,7 +8,8 @@
       "cover": null,
       "country": "BY",
       "vendor": "JungleMan",
-      "power": "5.2%, 40 IBU",
+      "power": "5.2",
+      "ibu": "40",
       "category": "IPA - New England",
       "price": {
         "value": "13.80p",
@@ -21,7 +22,8 @@
       "cover": null,
       "country": "BY",
       "vendor": "JungleMan",
-      "power": "4.8%, 20 IBU",
+      "power": "4.8",
+      "ibu": "20",
       "category": "IPA - Session",
       "price": {
         "value": "15.00р",
@@ -34,7 +36,8 @@
       "cover": null,
       "country": "BY",
       "vendor": "JungleMan",
-      "power": "4.8%, 20 IBU",
+      "power": "4.8",
+      "ibu": "20",
       "category": "IPA - Session",
       "price": {
         "value": "11.60р",
@@ -47,7 +50,8 @@
       "cover": null,
       "country": "US",
       "vendor": "Barley Bulb",
-      "power": "4.9%, 20 IBU",
+      "power": "4.9",
+      "ibu": "20",
       "category": "IPA - Imperial / Double / LongString",
       "price": {
         "value": "14.00р",
@@ -60,7 +64,8 @@
       "cover": null,
       "country": "US",
       "vendor": "Barley Bulb",
-      "power": "5%, 20 IBU",
+      "power": "5",
+      "ibu": "20",
       "category": "Sour - Other Gose",
       "price": {
         "value": "21.00р",
@@ -73,7 +78,8 @@
       "cover": null,
       "country": "US",
       "vendor": "Barley Bulb",
-      "power": "6.9%, 20 IBU",
+      "power": "6.9",
+      "ibu": "20",
       "category": "Porter - Imperial Down",
       "price": {
         "value": "12.30р",
@@ -86,7 +92,8 @@
       "cover": null,
       "country": "UK",
       "vendor": "Malt Star",
-      "power": "6.8%, 20 IBU",
+      "power": "6.8",
+      "ibu": "20",
       "category": "Sour - Fruited Gose",
       "price": {
         "value": "14.75р",
@@ -99,7 +106,8 @@
       "cover": null,
       "country": "UK",
       "vendor": "Malt Star",
-      "power": "5.2%, 20 IBU",
+      "power": "5.2",
+      "ibu": "20",
       "category": "IPA - Imperial / Double",
       "price": {
         "value": "17.00р",
@@ -112,7 +120,8 @@
       "cover": null,
       "country": "UK",
       "vendor": "Malt Star",
-      "power": "5.8%, 20 IBU",
+      "power": "5.8",
+      "ibu": "20",
       "category": "IPA - American",
       "price": {
         "value": "13.00р",
@@ -125,7 +134,8 @@
       "cover": null,
       "country": "UK",
       "vendor": "Malt Star",
-      "power": "6.3%, 20 IBU",
+      "power": "6.3",
+      "ibu": "20",
       "category": "IPA",
       "price": {
         "value": "11.20р",
@@ -138,7 +148,8 @@
       "cover": null,
       "country": "UK",
       "vendor": "Malt Star",
-      "power": "4.8%, 20 IBU",
+      "power": "4.8",
+      "ibu": "20",
       "category": "Stout - Milk / Sweet",
       "price": {
         "value": "18.35р",
@@ -151,7 +162,8 @@
       "cover": null,
       "country": "RU",
       "vendor": "StarchNut",
-      "power": "5.5%, 20 IBU",
+      "power": "5.5",
+      "ibu": "20",
       "category": "Belgian - Quadrupel",
       "price": {
         "value": "15.00р",
@@ -164,7 +176,8 @@
       "cover": null,
       "country": "RU",
       "vendor": "StarchNut",
-      "power": "5%, 20 IBU",
+      "power": "5",
+      "ibu": "20",
       "category": "IPA - MilkSnake",
       "price": {
         "value": "12.80р",
@@ -177,7 +190,8 @@
       "cover": null,
       "country": "RU",
       "vendor": "StarchNut",
-      "power": "4%, 20 IBU",
+      "power": "4",
+      "ibu": "20",
       "category": "Sour - Fruited",
       "price": {
         "value": "7.50р",
@@ -190,7 +204,8 @@
       "cover": null,
       "country": "RU",
       "vendor": "StarchNut",
-      "power": "6.8%, 20 IBU",
+      "power": "6.8",
+      "ibu": "20",
       "category": "Sour - Other Gose",
       "price": {
         "value": "9.99р",
@@ -203,7 +218,8 @@
       "cover": null,
       "country": "CZ",
       "vendor": "YeastCone",
-      "power": "11%, 20 IBU",
+      "power": "11",
+      "ibu": "20",
       "category": "Pole Ale - American",
       "price": {
         "value": "24.00р",
@@ -216,7 +232,8 @@
       "cover": null,
       "country": "CZ",
       "vendor": "YeastCone",
-      "power": "4.7%, 20 IBU",
+      "power": "4.7",
+      "ibu": "20",
       "category": "Wheat Beer",
       "price": {
         "value": "19.00р",
@@ -229,7 +246,8 @@
       "cover": null,
       "country": "CZ",
       "vendor": "YeastCone",
-      "power": "5.7%, 20 IBU",
+      "power": "5.7",
+      "ibu": "20",
       "category": "IPA - New England / Hazy",
       "price": {
         "value": "17.50р",
@@ -242,7 +260,8 @@
       "cover": null,
       "country": "DE",
       "vendor": "CreditsRank",
-      "power": "6.4%, 20 IBU",
+      "power": "6.4",
+      "ibu": "20",
       "category": "Pilsner - German",
       "price": {
         "value": "12.30р",
@@ -255,7 +274,8 @@
       "cover": null,
       "country": "DE",
       "vendor": "CreditsRank",
-      "power": "8.2%, 20 IBU",
+      "power": "8.2",
+      "ibu": "20",
       "category": "Lager",
       "price": {
         "value": "10.10р",

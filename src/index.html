@@ -81,7 +81,13 @@
                                         </span>
                                     </template>
                                     <span class="vendor" x-text="beer.vendor"></span>
-                                    <span class="power" x-text="beer.power"></span>
+                                    <span class="power">
+                                        <span class="value" x-text="beer.power"></span><span class="unit">%</span>
+                                    </span>
+                                    <span class="ibu">
+                                        <span class="value" x-text="beer.ibu"></span>
+                                        <span class="unit">IBU</span>
+                                    </span>
                                     <span class="category" x-text="beer.category"></span>
                                 </div>
                             </div>
