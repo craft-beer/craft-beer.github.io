@@ -81,6 +81,9 @@
           }
           .power {
             font-size: 1.15em;
+            &:before { // Separator
+              margin-top: 1px;
+            }
           }
           .ibu {
           }
