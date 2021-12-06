@@ -50,7 +50,7 @@ export default () => ({
         result.items = []
 
         if (json.items.length) {
-            json.items.slice(0, this.limitItems).forEach((beer) => {
+            json.items.filter(beer => beer.active).slice(0, this.limitItems).forEach((beer) => {
                 if (!beer.cover) {
                     beer.cover = '/images/beer-cover-default.png'
                 }
