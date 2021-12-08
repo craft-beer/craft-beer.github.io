@@ -4,6 +4,7 @@
   "items": [
     {
       "active": true,
+      "new": false,
       "number": "",
       "name": "",
       "cover": null,

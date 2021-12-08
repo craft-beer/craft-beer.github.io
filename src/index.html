@@ -65,12 +65,15 @@
                     <div class="beer-line">
                         <div class="beer-card">
                             <div class="cover">
-                                <img :src="beer.cover" alt="">
+                                <img :src="beer.cover" alt="" />
                             </div>
                             <div class="info">
                                 <div class="heading">
                                     <span class="number" x-text="formatNumber(beer.number)"></span>
-                                    <span class="name" x-text="beer.name"></span>
+                                    <span class="name">
+                                        <span x-text="beer.name"></span>
+                                        <span class="new-label" x-show="beer.new">NEW</span>
+                                    </span>
                                 </div>
                                 <div class="description">
                                     <template x-if="beer.country">
