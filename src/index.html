@@ -64,8 +64,7 @@
                 <template x-for="beer in column">
                     <div class="beer-line">
                         <div class="beer-card">
-                            <div class="cover">
-                                <img :src="beer.cover" alt="" />
+                            <div class="cover" :style="`background-image: url('${beer.cover}')`">
                             </div>
                             <div class="info">
                                 <div class="heading">
