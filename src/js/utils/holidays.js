@@ -12,7 +12,7 @@ class Holidays {
     }
 
     isNewYear() {
-        return (this.month === 12 && this.day >= 15) || (this.month === 1 && this.day <= 15)
+        return (this.month === 12 && this.day >= 1) || (this.month === 1 && this.day <= 15)
     }
 }
 
