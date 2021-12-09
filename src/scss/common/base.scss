@@ -13,6 +13,16 @@ body {
   color: $text-primary;
 }
 
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: darken(rgba(12,20,54), 5);
+}
+::-webkit-scrollbar-thumb {
+  background: lighten(rgba(12,20,54), 15);
+}
+
 img {
   max-width: 100%;
 }
