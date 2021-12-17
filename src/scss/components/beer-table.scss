@@ -134,12 +134,12 @@
         max-width: 20%;
         border-left: $card-price-separator-width solid lighten($card-bg-color, 12);
         text-align: center;
-        font-size: 2rem;
+        font-size: 1.5rem;
         font-weight: $font-w-bold;
         .unit{
         }
         .value {
-          font-size: 1.7rem;
+          font-size: 2rem;
           color: #eaea40;
         }
       }
