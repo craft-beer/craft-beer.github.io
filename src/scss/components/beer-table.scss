@@ -16,10 +16,11 @@
         position: absolute;
         padding: 3px 5px;
         line-height: 1;
-        background: #c40d5f;
+        border-radius: 3px;
+        background: #d00909;
         text-align: center;
         text-transform: uppercase;
-        font-size: .9rem;
+        font-size: 1rem;
       }
       .cover {
         display: flex;
@@ -45,6 +46,10 @@
         justify-content: center;
         flex-grow: 3;
         border-right: $card-price-separator-width solid darken($card-bg-color, 10);
+        > .new-label {
+          top: 2px;
+          right: 2px;
+        }
         .heading {
           padding-bottom: $card-description-size + .4rem; //reserved space for .description
           font-size: 2.3rem;
