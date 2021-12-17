@@ -47,7 +47,7 @@
         border-right: $card-price-separator-width solid darken($card-bg-color, 10);
         .heading {
           padding-bottom: $card-description-size + .4rem; //reserved space for .description
-          font-size: 2rem;
+          font-size: 2.5rem;
           .number {
             color: #eaea40;
           }
@@ -134,7 +134,7 @@
         max-width: 20%;
         border-left: $card-price-separator-width solid lighten($card-bg-color, 12);
         text-align: center;
-        font-size: 1.5rem;
+        font-size: 2rem;
         font-weight: $font-w-bold;
         .unit{
         }
