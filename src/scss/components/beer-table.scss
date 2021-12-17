@@ -47,8 +47,13 @@
         flex-grow: 3;
         border-right: $card-price-separator-width solid darken($card-bg-color, 10);
         > .new-label {
+          display: flex;
+          align-items: center;
           top: 2px;
           right: 2px;
+          padding-top: 0;
+          padding-bottom: 0;
+          min-height: 22px;
           max-height: 22px;
         }
         .heading {
