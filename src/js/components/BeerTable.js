@@ -64,6 +64,8 @@ export default () => ({
                     }
                 }
 
+                beer.price.value = beer.price.value.replace(',', '.')
+
                 result.items.push(beer)
             })
         }

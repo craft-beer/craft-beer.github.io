@@ -15,7 +15,7 @@
       "ibu": "40",
       "category": "IPA - New England",
       "price": {
-        "value": "13.80p",
+        "value": "13,80p",
         "unit": "1.00кг"
       },
       "colors": {
@@ -35,7 +35,7 @@
       "ibu": "20",
       "category": "IPA - Session",
       "price": {
-        "value": "15.00р",
+        "value": "15,00р",
         "unit": "1.00кг"
       },
       "colors": {
