@@ -67,7 +67,10 @@
                             <div class="cover" :style="`background-image: url('${beer.cover}')`">
                             </div>
                             <div class="info">
-                                <span class="new-label" x-show="beer.new">NEW</span>
+                                <div class="labels">
+                                    <span class="label new" x-show="beer.new">NEW</span>
+                                    <span class="label hit" x-show="beer.hit">ХИТ</span>
+                                </div>
                                 <div class="heading">
                                     <span class="number" x-text="formatNumber(beer.number)"></span>
                                     <span class="name">

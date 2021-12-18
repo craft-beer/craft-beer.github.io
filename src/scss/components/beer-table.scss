@@ -12,16 +12,6 @@
       padding: 3px 7px;
       border-radius: 5px;
       background: $card-bg-color;
-      .new-label {
-        position: absolute;
-        padding: 3px 5px;
-        line-height: 1;
-        border-radius: 3px;
-        background: #d00909;
-        text-align: center;
-        text-transform: uppercase;
-        font-size: 1rem;
-      }
       .cover {
         display: flex;
         position: relative;
@@ -33,7 +23,7 @@
         border-radius: 5px;
         background: transparent center no-repeat;
         background-size: cover;
-        .new-label {
+        .label {
           bottom: 0;
           left: 0;
           right: 0;
@@ -46,15 +36,31 @@
         justify-content: center;
         flex-grow: 3;
         border-right: $card-price-separator-width solid darken($card-bg-color, 10);
-        > .new-label {
-          display: flex;
-          align-items: center;
+        > .labels {
+          position: absolute;
           top: 2px;
           right: 2px;
-          padding-top: 4px;
-          padding-bottom: 0;
-          min-height: 22px;
-          max-height: 22px;
+          z-index: $z-index-labels;
+          > .label {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-bottom: 5px;
+            padding: 4px 5px 0;
+            min-height: 22px;
+            max-height: 22px;
+            line-height: 1;
+            border-radius: 3px;
+            text-align: center;
+            text-transform: uppercase;
+            font-size: 1rem;
+            &.new {
+              background: #d00909;
+            }
+            &.hit {
+              background: #c2970b;
+            }
+          }
         }
         .heading {
           padding-bottom: $card-description-size + .4rem; //reserved space for .description
@@ -67,11 +73,9 @@
             font-weight: $font-w-bold;
             letter-spacing: 0.02em;
           }
-          .new-label {
+          .labels {
             top: -5px;
             right: 0;
-            border-radius: 3px;
-            font-size: .7rem;
             transform: translateX(calc(100% + 3px));
           }
         }

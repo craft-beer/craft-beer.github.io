@@ -1,10 +1,11 @@
 {
-  "version": "0.1.0",
+  "version": "0.1.1",
   "updated_at": "",
   "items": [
     {
       "active": true,
       "new": false,
+      "hit": false,
       "number": "",
       "name": "",
       "cover": null,

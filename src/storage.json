@@ -1,10 +1,11 @@
 {
-  "version": "0.1.0",
+  "version": "0.1.1",
   "updated_at": "",
   "items": [
     {
       "active": true,
       "new": false,
+      "hit": false,
       "number": "1",
       "name": "Glyphid Slammer",
       "cover": null,
@@ -24,6 +25,7 @@
     {
       "active": true,
       "new": true,
+      "hit": false,
       "number": "2",
       "name": "Backbreaker Stout",
       "cover": null,
@@ -42,7 +44,8 @@
     },
     {
       "active": true,
-      "new": false,
+      "new": true,
+      "hit": true,
       "number": "3",
       "name": "Red Rock Blaster",
       "cover": null,
@@ -62,6 +65,7 @@
     {
       "active": true,
       "new": false,
+      "hit": true,
       "number": "4",
       "name": "Slayer Stout",
       "cover": null,
@@ -81,6 +85,7 @@
     {
       "active": true,
       "new": false,
+      "hit": false,
       "number": "5",
       "name": "Skull Crusher Ale",
       "cover": null,
@@ -100,6 +105,7 @@
     {
       "active": true,
       "new": false,
+      "hit": false,
       "number": "6",
       "name": "Oily Oaf Brew",
       "cover": null,
@@ -119,6 +125,7 @@
     {
       "active": true,
       "new": true,
+      "hit": false,
       "number": "7",
       "name": "Leaf Lover's Special",
       "cover": null,
@@ -138,6 +145,7 @@
     {
       "active": true,
       "new": false,
+      "hit": false,
       "number": "8",
       "name": "Dark Morkite",
       "cover": null,
@@ -157,6 +165,7 @@
     {
       "active": true,
       "new": false,
+      "hit": false,
       "number": "9",
       "name": "Pots O' Gold",
       "cover": null,
@@ -176,6 +185,7 @@
     {
       "active": true,
       "new": false,
+      "hit": false,
       "number": "10",
       "name": "Rocky Mountain",
       "cover": null,
@@ -195,6 +205,7 @@
     {
       "active": true,
       "new": false,
+      "hit": false,
       "number": "11",
       "name": "Slayer Stout",
       "cover": null,
@@ -214,6 +225,7 @@
     {
       "active": true,
       "new": false,
+      "hit": false,
       "number": "12",
       "name": "Tunnel Rat",
       "cover": null,
@@ -233,6 +245,7 @@
     {
       "active": true,
       "new": false,
+      "hit": false,
       "number": "13",
       "name": "Arkenstout",
       "cover": null,
@@ -252,6 +265,7 @@
     {
       "active": true,
       "new": false,
+      "hit": false,
       "number": "14",
       "name": "Blacklock Lager",
       "cover": null,
@@ -271,6 +285,7 @@
     {
       "active": true,
       "new": false,
+      "hit": false,
       "number": "15",
       "name": "Blackout Stout",
       "cover": null,
@@ -290,6 +305,7 @@
     {
       "active": true,
       "new": false,
+      "hit": false,
       "number": "16",
       "name": "Blackreach Blonde",
       "cover": null,
@@ -309,6 +325,7 @@
     {
       "active": true,
       "new": false,
+      "hit": false,
       "number": "17",
       "name": "Burning Love",
       "cover": null,
@@ -328,6 +345,7 @@
     {
       "active": true,
       "new": false,
+      "hit": false,
       "number": "18",
       "name": "Flintlocke's Delight",
       "cover": null,
@@ -347,6 +365,7 @@
     {
       "active": true,
       "new": false,
+      "hit": false,
       "number": "19",
       "name": "Gut Wrecker",
       "cover": null,
@@ -366,6 +385,7 @@
     {
       "active": true,
       "new": false,
+      "hit": false,
       "number": "20",
       "name": "Mactera Brew",
       "cover": null,
